@@ -97,7 +97,8 @@
             background: var(--accent);
             max-width: 499px;
             border-radius: 10px;
-            margin: 0 0 15px
+            margin: 0 0 15px;
+            margin: 0 auto;
         }
 
         .date__inner-info-text {
@@ -195,7 +196,7 @@
             padding: 8px 11px 8px 24px;
             border: 1px solid #bcbcbc;
             border-radius: 10px;
-            margin-top: 34px;
+            /* margin-top: 34px; */
             width: 100%
         }
 
@@ -290,14 +291,13 @@
             .date__bottom-btn {
                 margin-top: -10px;
                 width: 100%;
-                max-width: 351px
-                v
+                max-width: 351px v
             }
 
             .date__img {
                 position: absolute;
                 right: 0;
-                top: 208px;
+                top: 248px;
                 width: 222px;
                 z-index: 0
             }
@@ -315,7 +315,7 @@
             .date__bottom {
                 flex-direction: column-reverse;
                 align-items: center;
-                padding-top: 150px;
+                padding-top: 140px;
                 position: relative
             }
 
@@ -356,6 +356,15 @@
                 padding: 0 10px
             }
         }
+
+        .timer {
+            margin: 18px 0;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 38px;
+            text-align: center;
+            color: #FFFFFF;
+        }
     </style>
     <!-- Preload key resources -->
     <link rel="preload" href="./images/mentor.webp" as="image" />
@@ -380,6 +389,7 @@
                         <b>Maqsad:</b> 2 oy ichida <b>IELTS</b> ballingizni +1.0, +2.0 ga ko‘tarish
                     </p>
                 </div>
+                <span class="timer">01:59</span>
                 <h4 class="date__inner-title4">Qo’llanmada mavjud:</h4>
                 <ul class="date__inner-list">
                     <li class="date__inner-item">
@@ -399,7 +409,8 @@
                     </li>
                 </ul>
                 <div class="date__bottom">
-                    <a href="https://t.me/Visionvslbot" class="date__bottom-btn" onclick="openModal()">>>> BEPUL QATNASHISH <<<<</a>
+                    <a href="https://t.me/Visionvslbot" class="date__bottom-btn" onclick="openModal()">>>> BEPUL
+                        QATNASHISH <<<<< </a>
                             <div class="giftBox deskHidden">
                                 ❌
                                 <div>
